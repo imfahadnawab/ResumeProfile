@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+{% load static %}
+
+<section class="text-gray-400 bg-gray-900 body-font">
+
+    <div class="container px-5 py-10 mx-auto">
+        <div class="text-center mb-3">
+          <h1 class="sm:text-4xl text-2xl font-medium text-center title-font text-white mb-3">Resume</h1>
+        </div>  
+    <div class="container px- py-24 mx-auto flex flex-wrap">
+        <!-- Left Image with Margin Right -->
+        <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden mr-0">
+            <img alt="feature" class="object-cover object-center h-full w-full" src="/static/images/1.jpg">
+        </div>
+
+        <!-- Right Image -->
+        <div class="lg:w-1/2 w-full rounded-lg overflow-hidden">
+            <img alt="feature" class="object-cover object-center h-full w-full" src="/static/images/2.jpg">
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
